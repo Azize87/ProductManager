@@ -3,8 +3,8 @@ package ru.netology.domain;
 public class Book extends Product {
     private String author;
 
-    public Book(int id, String tatle, int price, String author) {
-        super(id, tatle, price);
+    public Book(int id, String title, int price, String author) {
+        super(id, title, price);
         this.author = author;
 
     }
